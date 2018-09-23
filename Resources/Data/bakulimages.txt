@@ -1,0 +1,26 @@
+[{
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/education-1.jpg' alt='Tunnel'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/education-2.jpg' alt='Bike'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/environment-1.jpg' alt='Paint'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/environment-2.jpg' alt='Paint'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/volunteerism-1.jpg' alt='Paint'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/volunteerism-2.jpg' alt='Paint'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+},
+{
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/last-1.jpg' alt='Bike'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}, {
+      "content": "<div class='slide_inner'><a class='photo_link' href='#'><img class='photo' src='Resources/Pictures/slider/last-2.jpg' alt='Paint'></a><a class='caption' href='#'></a></div>",
+      "content_button": "<div class='thumb'><img src='Resources/Pictures/2.jpg' alt='bike is nice'></div>"
+}]

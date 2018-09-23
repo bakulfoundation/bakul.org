@@ -1,0 +1,106 @@
+﻿#sidebar
+{
+    float: left;
+    text-align: left;
+    voice-family: inherit;
+    width: 220px;
+}
+
+
+.CssAdapterMenu ul.AspNet-Menu /* Tier 1 */
+{
+    width: 100%;
+}
+
+.CssAdapterMenu ul.AspNet-Menu ul /* Tier 2 */
+{
+    top: 100%;
+    left: 0;
+    width: 204px;
+    margin: 0px 0px 0px 9px;
+    position: static!important;
+}
+
+.CssAdapterMenu ul.AspNet-Menu ul ul /* Tier 3+ */
+{
+    top: -0.5em;
+    left: 6em;
+}
+
+.CssAdapterMenu ul.AspNet-Menu li a,
+.CssAdapterMenu ul.AspNet-Menu li span /* all list items */
+{
+    background: url("../Images/menubackgrnd.png") no-repeat scroll left top transparent;
+    color: #333333;
+    padding: 12px 0 0px 20px;
+    height: 29px !important;
+    font-weight:bold
+}
+
+.CssAdapterMenu ul.AspNet-Menu li
+{
+    margin-bottom: 10px;
+    position: static!important;
+}
+.CssAdapterMenu ul.AspNet-Menu li.AspNet-Menu-Selected,
+.CssAdapterMenu ul.AspNet-Menu li.AspNet-Menu-ChildSelected,
+.CssAdapterMenu ul.AspNet-Menu li:hover
+{
+    color: White;
+    background: transparent url("../Images/menubackgrndhover.png") left top no-repeat;
+    cursor: pointer;
+}
+
+.CssAdapterMenu ul.AspNet-Menu li ul li a,
+.CssAdapterMenu ul.AspNet-Menu li ul li span
+{
+    background: none;
+    padding: 8px 0 0 20px;
+    color: #ffffff;
+    font-size:.8em;
+    height:22px!important;
+}
+.CssAdapterMenu ul.AspNet-Menu li ul li
+{
+    margin-bottom: 0px;
+    border-bottom: 1px solid #222222;
+}
+.CssAdapterMenu ul.AspNet-Menu li ul li.AspNet-Menu-Selected,
+.CssAdapterMenu ul.AspNet-Menu li ul li:hover
+{
+    background:  none  #222222;
+    margin-bottom: 0px;
+    margin-right:-11px;
+}
+.CssAdapterMenu ul.AspNet-Menu li ul li.AspNet-Menu-Selected a,
+.CssAdapterMenu ul.AspNet-Menu li ul li:hover a
+{
+     background:  url("../Images/arrow.png") no-repeat scroll right center  #222222;
+     margin-right:-11px;
+}
+
+.CssAdapterMenu ul.AspNet-Menu li ul
+{
+    background-color: #444444;
+    float: left;
+    clear: both;
+    display:none; 
+    margin-top: -2px;
+}
+.CssAdapterMenu ul.AspNet-Menu li.AspNet-Menu-ChildSelected ul,
+.CssAdapterMenu ul.AspNet-Menu li:hover ul
+{
+    display: block;
+}
+
+div.AspNet-TreeView ul ul{
+    list-style: none outside none;
+    margin: 10px 0 10px 20px!important;
+    padding: 0;
+}
+div.AspNet-TreeView ul ul li
+{
+    line-height: 1.3em!important;
+    margin-left: 30px!important;
+    padding-bottom: 0.3em!important;
+}

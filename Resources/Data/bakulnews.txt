@@ -1,0 +1,11 @@
+[
+{
+      "content": "<div class='sidebar_module'><a href='Resources/Images/october_dos.jpg'><img width='90' height='71' alt='no image' src='Resources/Images/october_dos.jpg'></a><h5>Join the Bakul Day of Service on 2nd October 2018.</h5><br><br><a href='http://registerfordos.bakul.org' style='font-weight:bold;'>Register here</a><div class='clear'></div></div>"
+},
+{
+      "content": "<div class='sidebar_module'><img width='90' height='71' alt='no image' src='Resources/Pictures/gift-a-plant-lowres.jpg'><h5> Bakul is now offering Packaged Gift Plants for purchase. Call 9238404040.</h5><a href='WhatsNew.aspx'>See what's new</a><div class='clear'></div></div>"
+},
+{
+      "content": "<div class='sidebar_module'><img width='90' height='71' alt='no image' src='Resources/Pictures/tedxtalk.png'><h5>Listen to the idea of Bakul in the TEDx Talk by Sujit Mahapatra titled, \"The Power of Small Contributions\"</h5><a href='http://tedxtalks.ted.com/video/The-Power-of-Small-Contribution'>Watch video</a><div class='clear'></div></div>"
+}
+]

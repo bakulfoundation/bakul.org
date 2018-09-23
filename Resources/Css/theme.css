@@ -241,7 +241,7 @@ p
 }
 #newsevents a:link
 {
-    background: url("http://bakul.org/home/images/link_arrow.gif") no-repeat scroll right center transparent;
+    background: url("//bakul.org/home/images/link_arrow.gif") no-repeat scroll right center transparent;
     display: block;
     float: left;
     font-size: 11px;

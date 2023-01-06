@@ -91,6 +91,7 @@ body {
     margin-left: auto;
     transition: .5s ease-in-out;
     cursor: pointer;
+     background-color: #03070c;
 }
 
 .hamburger-menu span {

@@ -162,6 +162,7 @@ body {
     position: fixed;
     top: 0;
     left: -320px;
+
     z-index: 9999;
     width: 320px;
     height: 100vh;
@@ -207,8 +208,8 @@ body {
     .site-navigation ul {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-end;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         position: relative;
         top: auto;
         left: auto;

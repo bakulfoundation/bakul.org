@@ -1,6 +1,6 @@
 [
 {
-      "content": "<div class='sidebar_module'><a href='images/mbanner.jpeg'><img width='90' height='71' alt='no image' src='images/mbanner.jpeg'></a><h5>BhuFeSto</h5><br><br><a href='https://www.bakul.org/bhufesto/'>Website</a><a href='https://www.facebook.com/BhuFeSto2023'>Facebook</a><br><a href='https://www.instagram.com/bhufesto2023'>Instagram</a><br><div class='clear'></div></div>"
+      "content": "<div class='sidebar_module'><a href='images/mbanner.jpeg'><img width='90' height='71' alt='no image' src='images/mbanner.jpeg'></a><h5>BhuFeSto</h5><br><br><a href='https://www.bakul.org/bhufesto/'>Website</a><br><a href='https://www.facebook.com/BhuFeSto2023'>Facebook</a><br><a href='https://www.instagram.com/bhufesto2023'>Instagram</a><br><div class='clear'></div></div>"
 },
 {
       "content": "<div class='sidebar_module'><a href='images/storytime_at_9.jpg'><img width='90' height='71' alt='no image' src='images/storytime_at_9.jpg'></a><h5>Bakul presents Storytime @ 9. Watch LIVE every Saturday at 9PM on</h5><br><br><a href='https://facebook.com/BakulFoundation'>Facebook</a><br><a href='https://www.youtube.com/BakulFoundation'>YouTube</a><br><a href='https://twitter.com/bakulfoundation'>Twitter</a><div class='clear'></div></div>"
@@ -8,7 +8,7 @@
 {
       "content": "<div class='sidebar_module'><a href='videos/donate_smartphone.mp4'><img width='90' height='71' alt='no image' src='images/donate_smartphone.jpg'></a><h5>Donate Smarphone to enable Children's Education</h5><a href='tel:9778686786'>Call 9778686786</a><div class='clear'></div></div>"
 },
-{
+<!--{
       "content": "<div class='sidebar_module'><img width='90' height='71' alt='no image' src='Resources/Pictures/tedxtalk.png'><h5>Listen to the idea of Bakul in the TEDx Talk by Sujit Mahapatra titled, \"The Power of Small Contributions\"</h5><a href='http://tedxtalks.ted.com/video/The-Power-of-Small-Contribution'>Watch video</a><div class='clear'></div></div>"
-}
+}-->
 ]

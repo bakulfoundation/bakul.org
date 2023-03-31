@@ -1,274 +1,806 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bakul Foundation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
-<head><link rel="shortcut icon" href="Resources/Images/favicon.ico" type="image/x-icon" /><title>
-	Bakul Foundation: HomePage
-</title>
-    <!--[if IE 6]>
-        <link rel="stylesheet" type="text/css" href="Resources/Css/ie6.css" />
-    <![endif]-->
-    <!--[if IE 7]>
-        <link rel="stylesheet" type="text/css" href="Resources/Css/ie7.css" />
-    <![endif]-->
-    <!--[if IE 8]>
-        <link rel="stylesheet" type="text/css" href="Resources/Css/ie8.css" />
-    <![endif]-->
-    <link type="text/css" href="Resources/Css/default.css" rel="stylesheet" /><link rel="stylesheet" href="Resources/Css/theme.css" type="text/css" /><link rel="stylesheet" href="Resources/Css/agile_carousel.css" type="text/css" /><link href="Resources/Css/nav-h.css" rel="stylesheet" type="text/css" /><link href="Resources/Css/sifr.css" rel="stylesheet" type="text/css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"
-        language="javascript"></script>
-    
-    <script type="text/javascript" src="Resources/Javascript/bakul.js" language="javascript"></script>
-    <script type="text/javascript" src="Resources/Javascript/sifr.js" language="javascript"></script>
-    <script type="text/javascript" src="Resources/Javascript/sifr-config.js"></script>
-    
-    <style type="text/css">
-	/* <![CDATA[ */
-	#Menu2 img.icon { border-style:none;vertical-align:middle; }
-	#Menu2 img.separator { border-style:none;display:block; }
-	#Menu2 ul { list-style:none;margin:0;padding:0;width:auto; }
-	#Menu2 ul.dynamic { z-index:1; }
-	#Menu2 a { text-decoration:none;white-space:nowrap;display:block; }
-	#Menu2 a.popout { background-image:url("WebResource.axd@d=3uF0AEroo8NC39osx7229Tev0IXScDezcokwsc7RvO_ERlFC9FcSF5goRhnA05yGzrTdBr5YP2LaR3pK4G_F42s6h-VfMIOdUXp-_M5SBXg1&t=636681352740000000");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
-	/* ]]> */
-</style></head>
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
-    <form method="post" action="/" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPZBYCZg9kFgICAw9kFgICBxA8KwANAgAPFgIeC18hRGF0YUJvdW5kZ2QMFCsABgUTMDowLDA6MSwwOjIsMDozLDA6NBQrAAIWDB4EVGV4dAUKV2hvIHdlIGFyZR4FVmFsdWUFCldobyB3ZSBhcmUeB0VuYWJsZWRnHgpTZWxlY3RhYmxlaB4IRGF0YVBhdGgFJDQzMDhiNWI0LTRkZmItNGU2ZC1iNDk0LTdiOWJkYzdhYzZiYh4JRGF0YUJvdW5kZxQrAAcFFzA6MCwwOjEsMDoyLDA6MywwOjQsMDo1FCsAAhYOHwEFEVdlIEFyZSBWb2x1bnRlZXJzHwIFEVdlIEFyZSBWb2x1bnRlZXJzHgtOYXZpZ2F0ZVVybAUeL2Jha3Vsb2xkL1dlQXJlVm9sdW50ZWVycy5hc3B4HwNnHwRnHwUFHi9iYWt1bG9sZC93ZWFyZXZvbHVudGVlcnMuYXNweB8GZ2QUKwACFg4fAQUST3VyIEdvdmVybmluZyBCb2R5HwIFEk91ciBHb3Zlcm5pbmcgQm9keR8HBRwvYmFrdWxvbGQvR292ZXJuaW5nQm9keS5hc3B4HwNnHwRnHwUFHC9iYWt1bG9sZC9nb3Zlcm5pbmdib2R5LmFzcHgfBmdkFCsAAhYOHwEFFEhvdyBXZSBBcmUgRGlmZmVyZW50HwIFFEhvdyBXZSBBcmUgRGlmZmVyZW50HwcFHS9iYWt1bG9sZC9XZUFyZURpZmZlcmVudC5hc3B4HwNnHwRnHwUFHS9iYWt1bG9sZC93ZWFyZWRpZmZlcmVudC5hc3B4HwZnZBQrAAIWDh8BBQ5Ib3cgV2UgU3RhcnRlZB8CBQ5Ib3cgV2UgU3RhcnRlZB8HBRsvYmFrdWxvbGQvSG93V2VTdGFydGVkLmFzcHgfA2cfBGcfBQUbL2Jha3Vsb2xkL2hvd3dlc3RhcnRlZC5hc3B4HwZnZBQrAAIWDh8BBQ5PdXIgUGhpbG9zb3BoeR8CBQ5PdXIgUGhpbG9zb3BoeR8HBRwvYmFrdWxvbGQvT3VyUGhpbG9zb3BoeS5hc3B4HwNnHwRnHwUFHC9iYWt1bG9sZC9vdXJwaGlsb3NvcGh5LmFzcHgfBmdkFCsAAhYOHwEFGE91ciBQYXJ0bmVycyBBbmQgRnJpZW5kcx8CBRhPdXIgUGFydG5lcnMgQW5kIEZyaWVuZHMfBwUhL2Jha3Vsb2xkL091clBhcnRuZXJzRnJpZW5kcy5hc3B4HwNnHwRnHwUFIS9iYWt1bG9sZC9vdXJwYXJ0bmVyc2ZyaWVuZHMuYXNweB8GZ2QUKwACFgwfAQUKV2hhdCB3ZSBkbx8CBQpXaGF0IHdlIGRvHwNnHwRoHwUFJGY2YTBkYTczLTE4NzUtNGM2Ni04MjE5LWUxYmRmMTNjZTNiZB8GZxQrAAUFDzA6MCwwOjEsMDoyLDA6MxQrAAIWDh8BBQlFZHVjYXRpb24fAgUJRWR1Y2F0aW9uHwcFGC9iYWt1bG9sZC9FZHVjYXRpb24uYXNweB8DZx8EZx8FBRgvYmFrdWxvbGQvZWR1Y2F0aW9uLmFzcHgfBmdkFCsAAhYOHwEFC0Vudmlyb25tZW50HwIFC0Vudmlyb25tZW50HwcFGi9iYWt1bG9sZC9FbnZpcm9ubWVudC5hc3B4HwNnHwRnHwUFGi9iYWt1bG9sZC9lbnZpcm9ubWVudC5hc3B4HwZnZBQrAAIWDh8BBQRBcnRzHwIFBEFydHMfBwUSL2Jha3Vsb2xkL0FydC5hc3B4HwNnHwRnHwUFEi9iYWt1bG9sZC9hcnQuYXNweB8GZ2QUKwACFg4fAQUMVm9sdW50ZWVyaXNtHwIFDFZvbHVudGVlcmlzbR8HBRsvYmFrdWxvbGQvVm9sdW50ZWVyaXNtLmFzcHgfA2cfBGcfBQUbL2Jha3Vsb2xkL3ZvbHVudGVlcmlzbS5hc3B4HwZnZBQrAAIWDB8BBQ9XaGF0IHlvdSBjYW4gZG8fAgUPV2hhdCB5b3UgY2FuIGRvHwNnHwRoHwUFJDJjMWU3MmVhLTZkZjMtNGQ3YS04N2Y0LTI0N2FhZDAxMmYzNx8GZxQrAAIFAzA6MBQrAAIWDh8BBQ9Zb3UgY2FuIGpvaW4gdXMfAgUPWW91IGNhbiBqb2luIHVzHwcFGy9iYWt1bG9sZC9Zb3VDYW5Kb2luVXMuYXNweB8DZx8EZx8FBRsvYmFrdWxvbGQveW91Y2Fuam9pbnVzLmFzcHgfBmdkFCsAAhYMHwEFDVdoYXQgdGhleSBTYXkfAgUNV2hhdCB0aGV5IFNheR8DZx8EaB8FBSQ3YmQ2MWEyNi1jYWQ4LTQwYzItOWFjZi0xZTNkNTlhYzllMzMfBmcUKwADBQcwOjAsMDoxFCsAAhYOHwEFEENlbGVicml0eSBzcGVha3MfAgUQQ2VsZWJyaXR5IHNwZWFrcx8HBR4vYmFrdWxvbGQvQ2VsZWJyaXR5U3BlYWtzLmFzcHgfA2cfBGcfBQUeL2Jha3Vsb2xkL2NlbGVicml0eXNwZWFrcy5hc3B4HwZnZBQrAAIWDh8BBQxJbiBUaGUgTWVkaWEfAgUMSW4gVGhlIE1lZGlhHwcFGS9iYWt1bG9sZC9JblRoZU1lZGlhLmFzcHgfA2cfBGcfBQUZL2Jha3Vsb2xkL2ludGhlbWVkaWEuYXNweB8GZ2QUKwACFgwfAQULV2hhdCB3ZSBzYXkfAgULV2hhdCB3ZSBzYXkfA2cfBGgfBQUkMzRmNzM3NzctMTA0ZS00ZjIyLWJlYmItOTEyZDhiN2U4ODZkHwZnFCsAAwUHMDowLDA6MRQrAAIWDh8BBRZWb2x1bnRlZXIgdGVzdGltb25pYWxzHwIFFlZvbHVudGVlciB0ZXN0aW1vbmlhbHMfBwUqL2Jha3Vsb2xkL1ZvbHVudGVlclRlc3RpbW9uaWFsc1N0YXRpYy5hc3B4HwNnHwRnHwUFKi9iYWt1bG9sZC92b2x1bnRlZXJ0ZXN0aW1vbmlhbHNzdGF0aWMuYXNweB8GZ2QUKwACFg4fAQUEQmxvZx8CBQRCbG9nHwcFJWh0dHA6Ly9iYWt1bGZvdW5kYXRpb24ud29yZHByZXNzLmNvbS8fA2cfBGcfBQUlaHR0cDovL2Jha3VsZm91bmRhdGlvbi53b3JkcHJlc3MuY29tLx8GZ2RkZGRqNlKtQ87Kdo4oWoV7GcCukHilI1jY3Dif6TXmasVgvQ==" />
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
 
-<script src="WebResource.axd@d=acI9bg6R3SRSd9KGA607vemhd22Ox6m9Wkktnlc1jN8CDjkioNeTsJslB-ZLuToFJYLUn2y9o3sApLPu-iNsc-Q12G4oOsdAdIjKbOJX9ACSO5bemJDTXlo5Wc6d0dT2nKOB4-7LUO4Vow3ZmKHYcQ2&amp;t=635094891760000000" type="text/javascript"></script>
-<script src="WebResource.axd@d=m-AHjhXxaFF3Re8XGc3sxCpZzh1gEgyRvN-wkqtP48N9jhNNa-iyGPorFDlTfXH6PmvmcDWZRV3GaovA2TUXgnCCcfK9RCa-giaFzjcPv-06Hl2Eh_xY-bGvyqqURxBaEkaM2wgxD97I6ErPmhiyzg2&amp;t=635094891760000000" type="text/javascript"></script><link href="WebResource.axd@d=FoyFWNo2XFAkf4OeziFRsXMNzCzwWqSlzqptInJByu9iKj9z_FNCssvtDKiuPv5I_Jr5wCxHYtLoMwEo-mi9hci7lQcy8RYVxhUhG3nleOOPjr-BDgcDRNf98w6ghM7g0&amp;t=635094891760000000.css" type="text/css" rel="stylesheet"></link><link href="WebResource.axd@d=WEXrlsoLtNGvWs86AdwHJy5DBrxCvJrIc0OAAfbufM8Vr6Dyqrf1cbWhuJC-qqOhyNvtPgAXl6SE-tL_U-V_zjPbLYvk3q7VQTsqyHqoEDGdyfb3Xt3P8yJP_qI-DUfy-1YbIWmz3FHBtgc4l-XEZ4wpXPd92QxDCZW17lxUZtY1&amp;t=635094891760000000.css" type="text/css" rel="stylesheet"></link>
-<script src="WebResource.axd@d=ssP440O6HC-oFDsPpVcD0RVnJsoHYevSENc-UiSTIpEXTgupYl9bWcgE1X6w19bMsKld-EmWCg6-d2Os-km99m4BFtkIaI3VWMVi_PSMe5Q1&amp;t=636681352740000000" type="text/javascript"></script>
-<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="52749DE8" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOhy47HuTiQYLYp4E1QSy7PQdUqEXmxEWstIkilME0aR4UHWROE4ErBdnKaOGeOfBUb1H6Om/dUnGg/LqO78uqkYYBLpHXoOTRq1h1xLlPwuw==" />
-    <div id="header">
-        <div class="container">
-            <div id="headerContainer">
-                <div>
-                    <a href="/" rel="Alternate"><span class="headerLogo"></span></a>
-                </div>
-                <div class="headerNavContainer">
-                    <div id="nav">
-                        <a class="item first" href="/">Home</a> 
-                        <a class="item" href="YouCanJoinUs.aspx.html">Join Us</a> 
-                        <a class="item last" href="ContactUs.aspx.html">Contact Us</a>
-                    </div>
-                    <div class="searchBox">
-                        <input name="ctl00$searchbox" type="text" value="Search Bakul.." id="searchbox" class="searchText" />
-                        <input type="submit" name="ctl00$searchButton" value="" id="searchButton" class="searchButton" />
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div class="header-top_area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-12 col-lg-8">
+                            <div class="short_contact_list">
+                                <ul>
+                                    <li><a href="tel:+91 7077347256"> <i class="fa fa-phone"></i> +91 7077347256</a></li>
+                                    <li><a href="mailto:contactbakul@gmail.com"> <i
+                                                class="fa fa-envelope"></i>contactbakul@gmail.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-lg-4">
+                            <div class="social_media_links d-none d-lg-block">
+                                <a href="https://www.instagram.com/bakul_foundation/">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/company/bakul/">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/BakulFoundation">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://www.facebook.com/BakulFoundation/">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@BakulFoundation">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="slideshow_wrapper slideshow_wrapper_single">
-                <div class="roundedCornerShadow">
-                    <div id="flavor_1" class="slideshow">
-                    </div>
-                    <div id="newsevents" class="slideshow_news">
-                        <div class="hd_newsevents">
-                            <a href="/WhatsNew.aspx">Click here for News Highlights</a>
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/BakulTreeLogo.png" alt="">
+                                </a>
+                            </div>
                         </div>
-                        <div id="newsContainer">
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="main-menu">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="index.html">home</a></li>
+                                        <li><a href="#">our work <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="Education.html">Education</a></li>
+                                                <li><a href="Environment.html">Environment</a></li>
+                                                <li><a href="Arts.html">Arts</a></li>
+                                                <li><a href="Volunteerism.html">Volunteerism</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="About.html">About</a></li>
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="Appointment">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a data-scroll-nav='1' href="#">Join Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="content">
-        <div class="container">
-            <div class="navigationContainer">
-                <div id="sidebar">
-                    
-                    
-<div class="CssAdapterMenu" id="Menu2">
-	<div class="AspNet-Menu-Vertical">
-			<ul class="AspNet-Menu">
-				<li class="AspNet-Menu-WithChildren">
-					<span class="AspNet-Menu-NonLink">
-						Who we are</span>
-					<ul>
-						<li class="AspNet-Menu-Leaf">
-							<a href="WeAreVolunteers.aspx.html" class="AspNet-Menu-Link">
-								We Are Volunteers</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="GoverningBody.aspx.html" class="AspNet-Menu-Link">
-								Our Governing Body</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="WeAreDifferent.aspx.html" class="AspNet-Menu-Link">
-								How We Are Different</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="HowWeStarted.aspx.html" class="AspNet-Menu-Link">
-								How We Started</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="OurPhilosophy.aspx.html" class="AspNet-Menu-Link">
-								Our Philosophy</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="OurPartnersFriends.aspx.html" class="AspNet-Menu-Link">
-								Our Partners And Friends</a>
-						</li>
-					</ul>
-				</li>
-				<li class="AspNet-Menu-WithChildren">
-					<span class="AspNet-Menu-NonLink">
-						What we do</span>
-					<ul>
-						<li class="AspNet-Menu-Leaf">
-							<a href="Education.aspx.html" class="AspNet-Menu-Link">
-								Education</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="Environment.aspx.html" class="AspNet-Menu-Link">
-								Environment</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="Art.aspx.html" class="AspNet-Menu-Link">
-								Arts</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="Volunteerism.aspx.html" class="AspNet-Menu-Link">
-								Volunteerism</a>
-						</li>
-					</ul>
-				</li>
-				<li class="AspNet-Menu-WithChildren">
-					<span class="AspNet-Menu-NonLink">
-						What you can do</span>
-					<ul>
-						<li class="AspNet-Menu-Leaf">
-							<a href="YouCanJoinUs.aspx.html" class="AspNet-Menu-Link">
-								You can join us</a>
-						</li>
-					</ul>
-				</li>
-				<li class="AspNet-Menu-WithChildren">
-					<span class="AspNet-Menu-NonLink">
-						What they Say</span>
-					<ul>
-						<li class="AspNet-Menu-Leaf">
-							<a href="CelebritySpeaks.aspx.html" class="AspNet-Menu-Link">
-								Celebrity speaks</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="InTheMedia.aspx.html" class="AspNet-Menu-Link">
-								In The Media</a>
-						</li>
-					</ul>
-				</li>
-				<li class="AspNet-Menu-WithChildren">
-					<span class="AspNet-Menu-NonLink">
-						What we say</span>
-					<ul>
-						<li class="AspNet-Menu-Leaf">
-							<a href="VolunteerTestimonialsStatic.aspx.html" class="AspNet-Menu-Link">
-								Volunteer testimonials</a>
-						</li>
-						<li class="AspNet-Menu-Leaf">
-							<a href="https://bakulfoundation.wordpress.com/" class="AspNet-Menu-Link">
-								Blog</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
+    </header>
+    <!-- header-end -->
 
-	</div>
-</div>
-                </div>
-            </div>
-            <div class="centerContainer">
-                
-<div class="homePageTeaser">
-    <ul>
-        <li>
-            <h2 style="font-style:italic;">"If not us, who? If not now, when?"</h2>
-        </li>
-        <li>
-            <p>
-                Bakul is a romantic attempt to explore what can happen when people like you come together with your little contributions. It is an attempt to inspire and encourage individuals like you to be the change you want in the world. In other words, Bakul is a movement for volunteerism in India starting with state of Odisha.
-            </p>
-        </li>
-    </ul>
-    <br />
-</div>
-
-            </div>
-        </div>
-        <div id="footer">
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay2">
             <div class="container">
-                <span class="mar_left_10 mar_bot_10 displayBlock"> Spread the Word</span>
-                
-<div>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="slider_text ">
+                            <!-- <span>Get Started Today.</span> -->
+                            <h3 class="font-m weight-8"> If not us, who? </h3>
+                            <h3 class="font-m weight-8">If not now, when?</h3>
+                            <p class="font-m" style="font-weight: lighter;">Bakul is a romantic attempt to explore what can happen when people like us come together with our little contributions. It is a movement to demonstrate the power of volunteerism.</p>
+                            <a href="About.html" class="boxed-btn3">Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
 
-    <ul class="connectUs">
-        <li><a id="yahooGroups" target="_blank" href="https://groups.yahoo.com/group/Bakul/">
-            <img id="connectUs_Image0" src="Resources/Images/Yahoo-48.png" />
-        </a></li>
-        <li><a id="A2" target="_blank" href="https://www.wikipedia.org/">
-            <img id="connectUs_Image2" src="Resources/Images/Wikipedia-globe-icon.png" />
-        </a></li>
-        <li><a id="A3" target="_blank" href="https://bakulfoundation.wordpress.com/">
-            <img id="connectUs_Image3" src="Resources/Images/wordpress.png" />
-        </a></li>
-        <li><a id="A4" target="_blank" href="https://twitter.com/#!/Bakulfoundation/">
-            <img id="connectUs_Image4" src="Resources/Images/twitter_48.png" />
-        </a></li>
-        <li><a id="A5" target="_blank" href="https://www.facebook.com/group.php?gid=109091039401&ref=ts">
-            <img id="connectUs_Image5" src="Resources/Images/facebook_48.png" />
-        </a></li>
-        <li><a id="A6" target="_blank" href="https://picasaweb.google.com/contactbakul">
-            <img id="connectUs_Image6" src="Resources/Images/picasa_48.png" />
-        </a></li>
-        
-    </ul>
-</div>
+    <!-- reson_area_start  -->
+    <div class="reson_area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3 style="font-size: 2rem;"><span>Harnessing Volunteerism for...</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Library Movement</h4>
+                            <p>Bakul Foundation's free public libraries, stocked with all donated books, help promote a
+                                culture of reading.</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Public Art</h4>
+                            <p>We contribute to the vibrant aesthetics of the city through contribution to stunning
+                                murals and arts.</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Gift Plants</h4>
+                            <p>Gifting plants as a culture is what we root for, spreading joy and sustainability
+                                together!</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Children’s Books</h4>
+                            <p>We are dedicated to curating special books for pre-school kids, nurturing their love for
+                                reading and learning, the right way.</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Campaigns</h4>
+                            <p>Organizing events & campaigns of social & cultural importance is how we drive positive
+                                changes with mass participation.</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_reson">
+                        <div class="thum">
+                            <div class="thum_1">
+                                <img src="img/help/8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="help_content">
+                            <h4>Volunteerism</h4>
+                            <p>We connect individuals together to make a big impact through small contributions,
+                                creating a ripple effect of change in communities.</p>
+                            <a href="#" class="read_more">Read More</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
-    
-<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'Menu2', disappearAfter: 500, orientation: 'vertical', tabIndex: 0, disabled: false });</script></form>
-    <script type="text/javascript" src="Resources/Javascript/agile_carousel.alpha.js"></script>
-    <script src="//www.google.com/jsapi" type="text/javascript"></script>
-    <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
-            $.getJSON("Resources/Data/bakulimages.txt", function (data) {
-                $("#flavor_1").agile_carousel({
-                    carousel_data: data,
-                    carousel_outer_height: 274,
-                    carousel_height: 274,
-                    slide_height: 264,
-                    carousel_outer_width: 640,
-                    slide_width: 640,
-                    transition_time: 500,
-                    timer: 4000,
-                    continuous_scrolling: true,
-                    control_set_1: "numbered_buttons",
-                    no_control_set: "hover_previous_button,hover_next_button"
-                });
-            });
+    <!-- reson_area_end  -->
 
-            $.getJSON("Resources/Data/bakulnews.txt", function (data) {
+    <!-- counter_area_start  -->
+    <div class="counter_area">
+        <div class="container">
+            <div class="counter_bg overlay">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon">
+                                <i class="fa fa-book"></i>
+                            </div>
+                            <div class="events">
+                                <h3>30k+</h3>
+                                <p>Books</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon">
+                                <i class="fa fa-bullhorn"></i>
+                            </div>
+                            <div class="events">
+                                <h3>100+</h3>
+                                <p>Campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon">
+                                <i class="fa fa-leaf"></i>
+                            </div>
+                            <div class="events">
+                                <h3>4000+</h3>
+                                <p>Plants</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_counter d-flex align-items-center justify-content-center">
+                            <div class="icon">
+                                <!-- <i class="flaticon-hug"></i> -->
+                                <i class="fa fa-hand-paper-o"></i>
+                            </div>
+                            <div class="events">
+                                <h3>500+</h3>
+                                <p>Volunteers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- counter_area_end  -->
 
-                var i = 1;
-                var obj_inner, content;
-                for (var key in data) {
-                    if (data.hasOwnProperty(key)) {
-                        obj_inner = data[key];
-                        content = obj_inner.content;
-                        $('#newsContainer').append(content);
-                        i++;
-                    }
-                }
-            });
+    <!-- popular_causes_area_start  -->
+    <div class="popular_causes_area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Current and Forthcoming Events</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row font-o">
+                <div class="col-lg-12">
+                    <div class="causes_active owl-carousel">
+                        <div class="single_cause">
+                            <div class="thumb">
+                                <img src="img/causes/new/1.png" alt="">
+                            </div>
+                            <div class="causes_content">
+                                <div class="balance d-flex justify-content-between align-items-center">
+                                    <b class="font-o bakul-yellow">1st of April 2023 </b>
+                                </div>
+                                <h4>Bakul turns 16!</h4>
+                                <p>Let's celebrate 16 years of being together towards drving positive changes.</p>
+                                <a class="read_more" href="cause_details.html">Read More</a>
+                            </div>
+                        </div>
+                        <div class="single_cause">
+                            <div class="thumb">
+                                <img src="img/causes/new/2.png" alt="">
+                            </div>
+                            <div class="causes_content">
+                                <div class="balance d-flex justify-content-between align-items-center">
+                                    <b class="font-o bakul-yellow">26th of May 2023 </b>
+                                </div>
+                                <h4>Day of Service</h4>
+                                <p>It's the joy of giving that drives us observe the Day of Service multiple times a
+                                    year!</p>
+                                <a class="read_more" href="cause_details.html">Read More</a>
+                            </div>
+                        </div>
+                        <div class="single_cause">
+                            <div class="thumb">
+                                <img src="img/causes/new/3.png" alt="">
+                            </div>
+                            <div class="causes_content">
+                                <div class="balance d-flex justify-content-between align-items-center">
+                                    <b class="font-o bakul-yellow">Coming Soon! </b>
+                                </div>
+                                <h4>Book Distribution Drive</h4>
+                                <p>Every child's first book makes the country one step closer to a better one.</p>
+                                <a class="read_more" href="cause_details.html">Read More</a>
+                            </div>
+                        </div>
+                        <!-- <div class="single_cause">
+                            <div class="thumb">
+                                <img src="img/causes/1.png" alt="">
+                            </div>
+                            <div class="causes_content">
+                                <div class="custom_progress_bar">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;"
+                                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="progres_count">
+                                                30%
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="balance d-flex justify-content-between align-items-center">
+                                    <span>Raised: $5000.00 </span>
+                                    <span>Goal: $9000.00 </span>
+                                </div>
+                                <h4>Help us to Send Food</h4>
+                                <p>The passage is attributed to an
+                                    unknown typesetter in the century
+                                    who is thought</p>
+                                <a class="read_more" href="cause_details.html">Read More</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popular_causes_area_end  -->
 
-        });
+    <!-- latest_activites_area_start  -->
+    <div class="latest_activites_area">
+        <div class=" video_bg_1 video_activite  d-flex align-items-center justify-content-center">
+            <a class="popup-video" href="https://www.youtube.com/watch?v=_omWi-C_uqM">
+                <i class="flaticon-ui"></i>
+            </a>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-7">
+                    <div class="activites_info">
+                        <div class="section_title">
+                            <h3> <span>Not raising your hands </span><br>
+                                is a choice too!</h3>
+                        </div>
+                        <p class="para_1">Volunteerism is a powerful force that can bring positive changes in society.
+                            It is an act of selflessness, where individuals offer their time, skills, and resources to
+                            support a cause or community</p class="para_1">
+                        <p class="para_2">However, it is crucial to realize that not raising your hands is a choice too,
+                            and it is up to individuals to decide if they want to be a part of the solution or the
+                            problem. </p>
+                        <a href="#" data-scroll-nav='1' class="boxed-btn4">Be a part of the Solution!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- latest_activites_area_end  -->
 
-          
-    </script>
+
+    <!-- our_volunteer_area_start  -->
+    <!-- <div class="our_volunteer_area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Our Volunteer</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_volenteer">
+                        <div class="volenteer_thumb">
+                            <img src="img/volenteer/1.png" alt="">
+                        </div>
+                        <div class="voolenteer_info d-flex align-items-end">
+                            <div class="social_links">
+                                <ul>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="info_inner">
+                                <h4>Sakil khan</h4>
+                                <p>Donner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_volenteer">
+                        <div class="volenteer_thumb">
+                            <img src="img/volenteer/2.png" alt="">
+                        </div>
+                        <div class="voolenteer_info d-flex align-items-end">
+                            <div class="social_links">
+                                <ul>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="info_inner">
+                                <h4>Emran Ahmed</h4>
+                                <p>Volunteer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_volenteer">
+                        <div class="volenteer_thumb">
+                            <img src="img/volenteer/3.png" alt="">
+                        </div>
+                        <div class="voolenteer_info d-flex align-items-end">
+                            <div class="social_links">
+                                <ul>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="info_inner">
+                                <h4>Sabbir Ahmed</h4>
+                                <p>Volunteer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- our_volunteer_area_end  -->
+
+    <!-- news__area_start  -->
+    <div class="news__area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Highlights</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="news_active owl-carousel">
+                        <div class="single__blog d-flex align-items-center">
+                            <div class="thum">
+                                <img src="img/highlights/1.png" alt="">
+                            </div>
+                            <div class="newsinfo">
+                                <span>January 14, 2023</span>
+                                <a href="single-blog.html">
+                                    <h3>BhuFeSto</h3>
+                                </a>
+                                <p>Bhubaneswar Festival of Story Telling with storytellers from around the globe!</p>
+                                <a class="read_more" href="single-blog.html">Read More</a>
+                            </div>
+                        </div>
+                        <div class="single__blog d-flex align-items-center">
+                            <div class="thum">
+                                <img src="img/highlights/2.png" alt="">
+                            </div>
+                            <div class="newsinfo">
+                                <span>October 2, 2022</span>
+                                <a href="single-blog.html">
+                                    <h3>Daan Utsav</h3>
+                                </a>
+                                <p>Celebration of the Joy of Giving across the cities of Bhubaneswar and Cuttack.</p>
+                                <a class="read_more" href="single-blog.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news__area_end  -->
+
+    <!-- <div data-scroll-index='1' class="make_donation_area section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-55">
+                        <h3><span>Make a Donation</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form action="#" class="donation_form">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <div class="single_amount">
+                                    <div class="input_field">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">$</span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="40,200"
+                                                aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="single_amount">
+                                    <div class="fixed_donat d-flex align-items-center justify-content-between">
+                                        <div class="select_prise">
+                                            <h4>Select Amount:</h4>
+                                        </div>
+                                        <div class="single_doonate">
+                                            <input type="radio" id="blns_1" name="radio-group" checked>
+                                            <label for="blns_1">10</label>
+                                        </div>
+                                        <div class="single_doonate">
+                                            <input type="radio" id="blns_2" name="radio-group" checked>
+                                            <label for="blns_2">30</label>
+                                        </div>
+                                        <div class="single_doonate">
+                                            <input type="radio" id="Other" name="radio-group" checked>
+                                            <label for="Other">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="donate_now_btn text-center">
+                        <a href="#" class="boxed-btn4">Donate Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4 ">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/BakulTreeLogo.png" alt="">
+                                </a>
+                            </div>
+                            <p class="address_text">A Movement for Volunteerism in India,<br> starting with the State of
+                                Odisha.
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.instagram.com/bakul_foundation/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/bakul/">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/BakulFoundation">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/BakulFoundation/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/@BakulFoundation">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Our Work
+                            </h3>
+                            <ul class="links">
+                                <li><a href="Education.html">Education</a></li>
+                                <li><a href="Environment.html">Environment</a></li>
+                                <li><a href="Arts.html">Arts</a></li>
+                                <li><a href="Volunteerism.html">Volunteerism</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Contact Us
+                            </h3>
+                            <div class="contacts">
+                                <p>+91 70773 47256 <br>
+                                    contactbakul@gmail.com <br>
+                                    Plot 16, Satya Nagar, Bhubaneswar, Odisha 751007
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Upcoming Events
+                            </h3>
+                            <ul class="news_links">
+                                <li>
+                                    <div class="thumb">
+                                        <a href="#">
+                                            <img src="img/footer-images/1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <a href="#">
+                                            <h4>Bakul turns 16!</h4>
+                                        </a>
+                                        <span>Apr 1, 2023</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumb">
+                                        <a href="#">
+                                            <img src="img/footer-images/2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <a href="#">
+                                            <h4>Day of Service</h4>
+                                        </a>
+                                        <span>May 26, 2023</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="bordered_1px "></div>
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end  -->
+
+    <!-- link that opens popup -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

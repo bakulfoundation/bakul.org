@@ -45,6 +45,38 @@
        }
 
    } */
+
+    /* Reset default margin and padding */
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Styling for the banner */
+    .banner {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Styling for the video container */
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%;
+        /* 16:9 aspect ratio (height: 9/16 * 100) */
+    }
+
+    /* Styling for the iframe */
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 </style>
 
 <body>
@@ -54,13 +86,13 @@
                 <div class="row align-items-center">
                     <div class="col-2 col-lg-2 col-sm-10">
                         <h1 class="site-branding flex">
-                   
+
                             <a href="index.html">BhuFeSto</a>
-                          
+
                         </h1>
                     </div>
 
-                    <div class="col-10 col-lg-10 col-sm-2" >
+                    <div class="col-10 col-lg-10 col-sm-2">
                         <nav class="site-navigation">
                             <div class="hamburger-menu d-lg-none">
                                 <span></span>
@@ -71,12 +103,13 @@
 
                             <ul>
                                 <li><a href="index.html">HOME</a></li>
-                                <li><a href="Schedule.html">Schedule</a></li>
+                                <!-- <li><a href="Schedule.html">Schedule</a></li>
                                 <li><a href="StoryTellerEng.html">English Tellers</a></li>
                                 <li><a href="StoryTellerHindi.html">Hindi Tellers</a></li>
                                 <li><a href="StoryTellerOdia.html">Odia Tellers</a></li>
-                                <li><a href="Team.html">The Team</a></li>
+                                <li><a href="Team.html">The Team</a></li> -->
                                 <li><a href="https://www.bakul.org/">Bakul Foundation</a></li>
+                                <li><a href="gallery2023.html">Gallery 2023</a></li>
                                 <li><a href="gallery.html">Gallery 2018</a></li>
                                 <li><a href="media.html">Media</a></li>
                                 <li><a href="contact.html"></a></li>
@@ -101,8 +134,14 @@
     </div><!-- .hero-content -->
 
 
-    <div id="bhubanner">
+    <!-- <div id="bhubanner">
         <img src="posters/banner.jpeg" alt="Nature" class="responsivebanner" >
+    </div> -->
+    <div class="banner">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/iH_I6dnUNHo?si=DWUMDXLZiOnDPbCA" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
     </div>
 
     <div class="content-section" style="min-height: 100px;">
@@ -114,41 +153,70 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 style="color:black;">
-                                BhuFeSto or the Bhubaneswar Festival of Storytelling is India’s biggest storytelling festival that celebrates the best of oral storytellers from around the world and folk performers from India. It is organized by Bakul Foundation in collaboration with the Bhubaneswar Development Authority (BDA).
-        
-        
+                                BhuFeSto or the Bhubaneswar Festival of Storytelling is one of the world’s biggest oral
+                                storytelling festivals that celebrates the best of oral storytellers from around the
+                                world and folk performers from India. It is curated and organized by Bakul Foundation in
+                                collaboration with the Bhubaneswar Development Authority (BDA).
+
                             </h5>
                             <br>
-        
+
                             <h5 style="color:black;">
-                                The first edition in 2018 was held over 5 days in 3 public parks in different corners of Bhubaneswar and was attended by about 10,000 people, young and old and rich and poor. There were special sessions for children with hearing and visual disabilities as well.
+                                It was organized for the first time in 2018 as part of the DOT FEST (the city festival)
+                                organized by the BDA on the sidelines of the Men's Hockey World Cup. It was organized
+                                for the 2nd time in January 2023 again as part of Dot Fest on the sidelines of the Men’s
+                                Hockey World Cup again.
+                            </h5>
+                            <br>
+
+                            <h5 style="color:black;">
+                                In both editions, it has been held at different public parks in different corners of the
+                                city and attended by thousands of people, young and old, rich and poor. There were
+                                special sessions for children with hearing and visual disabilities as well.
+                            </h5>
+                            <br>
+
+                            <h5 style="color:black;">
+                                BHUFESTO 2024 IS going to be organized in the 1st week of February. Details coming soon.
                             </h5>
                         </div>
-                      </div>
+                    </div>
 
                 </div><!-- col-12 -->
             </div><!-- row -->
 
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12">
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
                             <h2>Schedule</h2>
-                            <h5><a href="posters/BhuFeSto_Schedule.pdf" download="proposed_file_name">Click here to Download the Schedule</a></h5>
+                            <h5><a href="posters/BhuFeSto_Schedule.pdf" download="proposed_file_name">Click here to
+                                    Download the Schedule</a></h5>
                             <form method="get" action="posters/BhuFeSto_Schedule.pdf">
                                 <button style="background-color: aqua;" type="submit">Download!</button>
-                             </form>
-                        </div><!-- entry-title -->
-                    </div><!-- lineup-artists-headline -->
-                </div><!-- col-12 -->
-            </div><!-- row -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-12">
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
-                            <h2>StoryTellers</h2>
+                            <p >
+                                Glimpses of </p>
+                                <h2 ><a href="gallery2023.html">
+                                    Bhufesto 2023</a></h2>
+                        </div><!-- entry-title -->
+                        <div class="entry-title">
+                            <p >
+                                Glimpses of</p>
+                                
+                                    <h2 ><a href="gallery.html">
+                                        Bhufesto 2018</a></h2>
+                            </div><!-- entry-title -->
                         </div><!-- entry-title -->
                     </div><!-- lineup-artists-headline -->
                 </div><!-- col-12 -->
@@ -157,249 +225,132 @@
                 <div class="col-lg-4 col-sm-12">
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
-                            <h4 style="color: black;">English Tellers</h4>
+                            <h4 style="color: black;"></h4>
 
-                            <h5 style="color: black;"><a href="StoryTellerEng.html" >
-                                Explore</a></h5>
+                            
                         </div><!-- entry-title -->
                     </div><!-- lineup-artists-headline -->
                 </div><!-- col-12 -->
-                <div class="col-lg-4 col-sm-12">
-                    <div class="lineup-artists-headline">
-
-                        <div class="entry-title">
-                            <h4 style="color: black;">Hindi Tellers</h4>
-                            <h5>                            <a href="StoryTellerHindi.html" >
-                                Explore</a></h5>
-
-                        </div><!-- entry-title -->
-                    </div><!-- lineup-artists-headline -->
-                </div><!-- col-12 -->
-                <div class="col-lg-4 col-sm-12">
+               
+                <!-- <div class="col-lg-4 col-sm-12">
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
                             <h4 style="color: black;">Odia Tellers</h4>
-                            <h5>                            <a href="StoryTellerOdia.html" >Explore</a></h5>
+                            <h5> <a href="StoryTellerOdia.html">Explore</a></h5>
 
-                        </div><!-- entry-title -->
-                    </div><!-- lineup-artists-headline -->
-                </div><!-- col-12 -->
+                        </div>
+                    </div>
+                </div> -->
             </div><!-- row -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12">
                     <div class="lineup-artists-headline">
                         <div class="entry-title">
                             <h2 style="color: black;">The Team</h2>
-                            <h5> <a href="Team.html" >
-                                View All
-                            </a></h5>
-                           
-                        </div><!-- entry-title -->
-                    </div><!-- lineup-artists-headline -->
-                </div><!-- col-12 -->
-            </div><!-- row -->
-            
+                            <h5> <a href="Team.html">
+                                    View All
+                                </a></h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
         </div><!-- row -->
-        
-       
 
-        </div><!-- container -->
-        <div class="homepage-next-events">
-            <div class="container">
+
+
+    </div>
+
+    <div class="home-page-last-news">
+        <div class="container">
+            <div class="header">
+                <div class="entry-title">
+                    <!-- <p>JUST THE BEST</p> -->
+                    <h2>Media Reports</h2>
+                </div><!-- entry-title -->
+            </div><!-- header -->
+
+            <div class="home-page-last-news-wrap">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="entry-title">
-                            <p>Glimpses of</p>
-                            <h2>BhuFeSto 2018</h2>
-                        </div><!-- entry-title -->
-                    </div><!-- col-12 -->
-                </div><!-- row -->
-            </div><!-- container -->
+                    <div class="col-12 col-md-6">
+                        <figure class="featured-image">
+                            <a href="#"> <img src="Media/slide (7).jpg" alt="fesival+celebration"> </a>
+                        </figure><!-- featured-image -->
 
-            <div class="next-event-slider-wrap">
-                <div class="swiper-container next-event-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (1).jpg" alt="">
+                        <div class="box-link-date">
+                            <a href="#">08.09.18</a>
+                        </div>
 
-                                    <!-- <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (2).jpg" alt="">
-
-                                    <!-- <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (3).jpg" alt="">
-
-                                    <!-- <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (4).jpg" alt="">
-
-                                    <!-- <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (5).jpg" alt="">
-<!-- 
-                                    <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="Gallery/slide (16).jpg" alt="">
-
-                                    <!-- <a href="#"
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a> -->
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-                    </div><!-- .swiper-wrapper -->
-                </div><!-- .swiper-container -->
-
-                <div class="swiper-button-next">
-                    <img src="images/button.png" alt="">
-                </div><!-- .slider-button -->
-            </div><!-- .next-event-slider-wrap -->
-        </div><!-- homepage-next-events -->
-
-        <div class="home-page-last-news">
-            <div class="container">
-                <div class="header">
-                    <div class="entry-title">
-                        <!-- <p>JUST THE BEST</p> -->
-                        <h2>Media Reports</h2>
-                    </div><!-- entry-title -->
-                </div><!-- header -->
-
-                <div class="home-page-last-news-wrap">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <figure class="featured-image">
-                                <a href="#"> <img  src="Media/slide (7).jpg" alt="fesival+celebration"> </a>
-                            </figure><!-- featured-image -->
-
-                            <div class="box-link-date">
-                                <a href="#">08.09.18</a>
-                            </div>
-
-                            <div class="content-wrapper">
-                                <div class="entry-content">
-                                    <div class="entry-header">
-                                        <h2><a href="#">StoryTellers to captive WC crowd</a></h2>
-                                    </div><!-- entry-header -->
-<!-- 
+                        <div class="content-wrapper">
+                            <div class="entry-content">
+                                <div class="entry-header">
+                                    <h2><a href="#">StoryTellers to captive WC crowd</a></h2>
+                                </div><!-- entry-header -->
+                                <!-- 
                                     <div class="entry-meta">
                                         <span class="author-name"><a href="#"> By James Williams</a></span>
                                         <span class="space">|</span>
                                         <span class="comments-count"><a href="#">3 comments</a></span>
                                     </div> -->
-                                    <!-- entry-meta -->
-<!-- 
+                                <!-- entry-meta -->
+                                <!-- 
                                     <div class="entry-description">
                                         <p>Quisque at erat eu libero consequat tempus.
                                             Quisque mole stie convallis tempus.
                                             Ut semper purus metus, a euismod sapien sodales ac.
                                             Duis viverra eleifend fermentum.</p>
                                     </div> -->
-                                    <!-- entry-description -->
-                                </div><!-- entry-content -->
-                            </div><!-- content-wrapper -->
-                        </div><!-- .col-6 -->
+                                <!-- entry-description -->
+                            </div><!-- entry-content -->
+                        </div><!-- content-wrapper -->
+                    </div><!-- .col-6 -->
 
-                        <div class="col-12 col-md-6">
-                            <figure class="featured-image">
-                                <a href="#"> <img src="Media/slide (1).jpg" alt="fesival+celebration"> </a>
-                            </figure><!-- featured-image -->
+                    <div class="col-12 col-md-6">
+                        <figure class="featured-image">
+                            <a href="#"> <img src="Media/slide (1).jpg" alt="fesival+celebration"> </a>
+                        </figure><!-- featured-image -->
 
-                            <div class="box-link-date">
-                                <a href="">08.09.18</a>
-                            </div>
+                        <div class="box-link-date">
+                            <a href="">08.09.18</a>
+                        </div>
 
-                            <div class="content-wrapper">
-                                <div class="entry-content">
-                                    <div class="entry-header">
-                                        <h2><a href="#">Twist in the Tale</a></h2>
-                                    </div><!-- entry-header -->
+                        <div class="content-wrapper">
+                            <div class="entry-content">
+                                <div class="entry-header">
+                                    <h2><a href="#">Twist in the Tale</a></h2>
+                                </div><!-- entry-header -->
 
-                                    <!-- <div class="entry-meta">
+                                <!-- <div class="entry-meta">
                                         <span class="author-name"><a href="#">By James Williams</a></span>
                                         <span class="space">|</span>
                                         <span class="comments-count"><a href="#">3 comments</a></span>
                                     </div> -->
-                                    <!-- entry-meta -->
-<!-- 
+                                <!-- entry-meta -->
+                                <!-- 
                                     <div class="entry-description">
                                         <p>Quisque at erat eu libero consequat tempus.
                                             Quisque mole stie convallis tempus.
                                             Ut semper purus metus, a euismod sapien sodales ac.
                                             Duis viverra eleifend fermentum.</p>
                                     </div> -->
-                                    <!-- entry-description -->
-                                </div><!-- entry-content -->
-                            </div><!-- .content-wrapper -->
-                        </div><!-- col-6 -->
+                                <!-- entry-description -->
+                            </div><!-- entry-content -->
+                        </div><!-- .content-wrapper -->
+                    </div><!-- col-6 -->
 
 
-                    </div><!-- row -->
-                    <div class="row justify-content-center">
-                        <div class="see-complete-lineup">
-                            <div class="entry-footer">
-                                <a href="media.html" class="btn">All Media Reports</a>
-                            </div>
+                </div><!-- row -->
+                <div class="row justify-content-center">
+                    <div class="see-complete-lineup">
+                        <div class="entry-footer">
+                            <a href="media.html" class="btn">All Media Reports</a>
                         </div>
                     </div>
-                </div><!-- home-page-last-news-wrap -->
-            </div><!-- container -->
-        </div><!-- home-page-last-news -->
+                </div>
+            </div><!-- home-page-last-news-wrap -->
+        </div><!-- container -->
+    </div><!-- home-page-last-news -->
     </div>
 
     <footer class="site-footer">
@@ -422,7 +373,7 @@
                         <div class="copyright-info">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved 
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved
                             <!-- | This
                             template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
                                 href="https://www.bakul.org/" target="_blank">Bakul</a> -->
@@ -432,12 +383,14 @@
                         <div class="footer-social">
                             <ul class="flex justify-content-center align-items-center">
                                 <!-- <li><a href="#"><i class="fab fa-pinterest"></i></a></li> -->
-                                <li><a href="https://www.facebook.com/BhuFeSto2023"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/BhuFeSto2023"><i
+                                            class="fab fa-facebook-f"></i></a></li>
                                 <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
                                 <!-- <li><a href="#"><i class="fab fa-dribbble"></i></a></li> -->
                                 <!-- <li><a href="#"><i class="fab fa-behance"></i></a></li> -->
                                 <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> -->
-                                <li><a href="https://www.instagram.com/bhufesto2023"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/bhufesto2023"><i
+                                            class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div><!-- footer-social -->
                     </div><!-- col -->

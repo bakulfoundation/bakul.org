@@ -120,7 +120,7 @@
 
 
 
-    
+
     <!-- slider_area_end -->
     <!-- slider_area_start -->
     <div style="margin-top: 10%;">
@@ -130,85 +130,97 @@
     </div>
     <!-- reson_area_end  -->
 
-    <!-- how_we_are_different_start  -->
-    <div class="how_we_are_different">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb-55">
+    <div id="wrapper" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
-                    </div>
+        <!-- Image Container -->
+        <div id="image-container" style="flex: 1; min-width: 300px; max-width: 50%; box-sizing: border-box;">
+            <img src="./img/banner/flybrary-airport.jpeg" alt="Flybrary" id="flybrary-image"
+                style="width: 100%; height: auto;">
+        </div>
+    
+        <!-- Content Container -->
+        <div id="content-container"
+            style="flex: 1; min-width: 300px; max-width: 50%; padding: 20px; box-sizing: border-box;">
+    
+            <!-- how_we_are_different_start -->
+            <div class="how_we_are_different">
+                <div class="container" style="text-align: center;">
+                    <p>
+                        The FLYBRARY at Bhubaneswar Airport is an initiative of Bakul Foundation in partnership with the
+                        Airports Authority of India. Bakul Foundation has been running a library movement in Odisha
+                        entirely with the spirit of volunteerism to promote the habit of reading among people and
+                        children in particular. As part of that movement, Bakul has been setting up libraries in public
+                        spaces like airports, bus stations, parks, museums, and cafes.
+                    </p>
+                    <br>
+                    <p>
+                        There are 2 shelves, one each at DEPARTURE and at ARRIVALS. You can pick up a book of your
+                        choice, read and return it at the shelf there. Or you can also take the book with yourself.
+                    </p>
+                    <br>
+                    <p>
+                        You can return the books at the Flybrary Shelves at the Bhubaneswar airport or send them by post
+                        to Bakul Foundation. You can also gift your books to Bakul for the Flybrary initiative or the
+                        Library Movement in general for the libraries Bakul is setting up across Odisha.
+                    </p>
+                    <br>
+                    <p>
+                        In fact, the books at the Flybrary have been donated by readers to Bakul Foundation. The racks
+                        are a gift from Debasis Patnaik of Vibe Furniture, and the Flybrary truly represents a citizens
+                        initiative and demonstrates the power of small contributions, which is the mission of BAKUL.
+                    </p>
                 </div>
             </div>
-            <div class="row justify-content-center" style="text-align: center;">
-                <p>
-                    The FLYBRARY at Bhubaneswar Airport is an initiative of Bakul Foundation in partnership with the
-                    Airports Authority of India. Bakul Foundation has been running a library movement in Odisha entirely
-                    with the spirit of volunteerism to promote the habit of reading among people and children in
-                    particular. As part of that movement, Bakul has been setting up libraries in public spaces like
-                    airports, bus stations, parks, museums and cafes.
-
-
-                </p>
+            <!-- how_we_are_different_end -->
+    
+            <!-- how_we_started_start -->
+            <div class="how_we_started" style="padding: 20px 0; text-align: center;">
+                <p>If you love the initiative, please leave a review</p>
+                <a href="https://maps.app.goo.gl/WoTtibBJU2gt4KyY9?g_st=iw" class="boxed-btn3 ml-md-3"
+                    style="background-color:#F9C000; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 5%; margin-bottom: 5%;">Write
+                    Review</a>
                 <br>
                 <p>
-                    There are 2 shelves, one each at DEPARTURE and at ARRIVALS. You can pick up a book of your choice,
-                    read and return it at the shelf there. Or you can also take the book with yourself.
-
-                </p>
-                <br>
-               <p>
-
-                    You can return the books at the Flybrary Shelves at the Bhubaneswar airport or send them by post to
-                    Bakul Foundation. You can also gift your books to Bakul for the Flybrary initiative or the Library
-                    Movement in general for the libraries Bakul is setting up across Odisha.
-                </p>
-                <br>
-                <p>
-
-                    In fact, the books at the Flybrary have been donated by readers to Bakul Foundation. The racks are a
-                    gift from Debasis Patnaik of Vibe Furniture, and the Flybrary truly represents a citizens initiative
-                    and demonstrates the power of small contributions, which is the mission of BAKUL.
+                    Visit us/ Donate books at<br>
+                    <strong>Bakul Library</strong><br>
+                    16 Satyanagar, Bhubaneswar<br><br>
+                    Contact us - <a href="mailto:contactbakul@gmail.com">contactbakul@gmail.com</a>, 7077347256
                 </p>
             </div>
+            <!-- how_we_started_end -->
+    
         </div>
     </div>
-    <!-- how_we_are_different_end -->
-
-    <!-- how_we_started_start -->
-    <div class="how_we_started section_padding">
-        <div class="container">
-            
-            <div class="col justify-content-center" style="text-align: center;">
-                <p>
-                    If you love the initiative, please leave a review
-
-                </p>
-                <a href="https://maps.app.goo.gl/WoTtibBJU2gt4KyY9?g_st=iw
-                " class="boxed-btn3 ml-md-3"
-                    style="background-color:#F9C000;  color: white; margin-top: 5%; margin-bottom: 5%;">
-                    Write Review
-                </a>
-                <br>
-                <p>
-                    Visit us/ Donate books at
-
-                    Bakul Library
-                    16 Satyanagar, Bhubaneswar
-
-                    Contact us- contactbakul@gmail.com, 7077347256
-                </p>
-                <br><br>
-
-            </div>
-        </div>
-    </div>
-    <!-- how_we_started_end -->
-
-
-
-
-
+    
+    <!-- Responsive Script for Mobile View -->
+    <script>
+        function handleResize() {
+            const wrapper = document.getElementById('wrapper');
+            const imageContainer = document.getElementById('image-container');
+            const contentContainer = document.getElementById('content-container');
+            const image = document.getElementById('flybrary-image');
+    
+            if (window.innerWidth <= 768) {
+                wrapper.style.flexDirection = 'column';
+                imageContainer.style.maxWidth = '100%';
+                contentContainer.style.maxWidth = '100%';
+                contentContainer.style.padding = '20px';
+                contentContainer.style.textAlign = 'center';
+                image.style.width = '100%';
+            } else {
+                wrapper.style.flexDirection = 'row';
+                imageContainer.style.maxWidth = '50%';
+                contentContainer.style.maxWidth = '50%';
+                contentContainer.style.padding = '20px';
+                contentContainer.style.textAlign = 'left';
+                image.style.width = '100%';
+            }
+        }
+    
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('load', handleResize);
+    </script>
+    
     <!-- footer_start  -->
     <footer class="footer">
         <div class="footer_top">
